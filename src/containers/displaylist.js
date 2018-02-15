@@ -12,11 +12,11 @@ class Displaylist extends Component {
   }
  
   render() {
-    var todoEntries = this.props.entries;
-    var listItems = todoEntries.map(this.createTasks);
+    var listinputs = this.props.inputs;
+    var listItems = listinputs.map(this.createTasks);
  
     return (
-      <ul className="theList">
+      <ul>
           {listItems}
       </ul>
     );

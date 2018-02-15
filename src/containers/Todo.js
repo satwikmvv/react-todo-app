@@ -48,7 +48,7 @@ addItem(event) {
                 <button type="submit">Add Task</button>
             </form>
         </div>
-        <Displaylist entries={this.state.items} />
+        <Displaylist inputs={this.state.items} />
     </div>
     );
   }
