@@ -30,7 +30,7 @@ addItem(event) {
         this._inputElement.value = "";
         }
        
-    console.log(itemArray);
+    //console.log(itemArray);
          
     event.preventDefault();
 }
